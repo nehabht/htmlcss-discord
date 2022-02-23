@@ -8,3 +8,93 @@
 
 
 
+#site_header{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+/* .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.container{
+    position: absolute;
+    width: 70%;
+    height: 300px;
+    background-color: palevioletred;
+    left:15%;
+    bottom: 15%;
+
+
+}
+
+.navbar{
+    position: absolute;
+    width: 70%;
+    height: 60px;
+    background-color: pink;
+    left: 15%;
+
+    
+}
+
+/* main */
+
+#site_main{
+    background-color: aquamarine;
+    position: relative;
+    width: 100vw;
+    height: 600px;
+
+}
+
+.section1{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(112, 216, 155);
+    left:15%;
+    bottom: 0;
+}
+
+.bigbox{
+    position:absolute;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(155, 125, 224);
+    /* left:15%; */
+    bottom: 0;
+    z-index: 4;
+
+}
+
+.littlebox{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(213, 219, 120);
+    bottom: 0;
+    z-index: 4;
+    right: 0;
+
+}
+
+.section2{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(17, 20, 18);
+    left:15%;
+    bottom: 0;
+
+}
+
+#site_footer{
+    background-color: blue;
+    height: 60px;
+    
+}
