@@ -14,15 +14,15 @@ body{
     position: relative;
     width: 100vw;
     height: 600px;
-    /* background-color: cornflowerblue; */
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 .logo{
     width: 120px;
     margin-right: 50px;
     float: left;
+    margin-top: 20px;
     
 }
 
@@ -70,7 +70,6 @@ body{
     margin-top: 20px;
     padding:7px 12px;
     border-radius: 20px;
-    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 500;
     
 
@@ -138,7 +137,7 @@ body{
 }
 
 .arrow{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .open_discord{
@@ -160,11 +159,16 @@ body{
 
 /* main */
 
+
+/**********
+section1
+*/
+
 #site_main{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     position: relative;
     width: 100vw;
-    height: 600px;
+    height: 700px;
 
 }
 
@@ -172,7 +176,7 @@ body{
     position: absolute;
     width: 70%;
     height: 100%;
-    background-color: rgb(112, 216, 155);
+    background-color: white;
     left:15%;
     bottom: 0;
 }
@@ -181,7 +185,7 @@ body{
     position:absolute;
     width: 70%;
     height: 100%;
-    background-color: rgb(155, 125, 224);
+    /* background-color: rgb(155, 125, 224); */
     /* left:15%; */
     bottom: 0;
     z-index: 4;
@@ -192,14 +196,43 @@ body{
     position: absolute;
     width: 30%;
     height: 100%;
-    background-color: rgb(213, 219, 120);
+    /* background-color: rgb(213, 219, 120); */
     bottom: 0;
     z-index: 4;
     right: 0;
 
 }
 
-.section2{
+
+.littlebox p:first-child{
+    color:#23272A;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 42%;
+    line-height: 1.2;
+
+}
+
+.section1 p{
+    color:#23272A;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 42%;
+    line-height: 1.5;
+    margin-top: 10%;
+
+}
+.section1 img{
+    width: 520px;
+    margin-top: 15%;
+}
+
+
+
+
+
+/* .section2{
     position: absolute;
     width: 70%;
     height: 100%;
@@ -207,7 +240,7 @@ body{
     left:15%;
     bottom: 0;
 
-}
+} */
 
 #site_footer{
     background-color: blue;
