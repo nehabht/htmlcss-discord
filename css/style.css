@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #site_header{
     position: relative;
@@ -32,6 +34,7 @@
     left: 15%;
     
 }
+
 
 
 
@@ -67,11 +70,13 @@
     margin-top: 20px;
     padding:7px 12px;
     border-radius: 20px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 500;
     
 
 }
+
+
 
 .clearfix::after{
     content: "";
@@ -82,8 +87,8 @@
 .container{
     position: absolute;
     width: 70%;
-    height: 300px;
-    background-color: palevioletred;
+    height: 340px;
+    /* background-color: palevioletred; */
     left:15%;
     bottom: 15%;
 
@@ -101,6 +106,57 @@
 .navigation{
     text-align: center;
 }
+
+.container p:first-child{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container p{
+    color:white;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.download{
+    border:none;
+    text-align: center;
+    position: absolute;
+    left:28%;
+    margin-top: 20px;
+    padding:12px 27px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.arrow{
+    font-weight: bolder;
+}
+
+.open_discord{
+    border:none;
+    text-align: center;
+    position: absolute;
+    right: 283px;
+    margin-top: 20px;
+    padding:12px 27px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #23272A;
+    color: white;
+
+}
+
 
 /* main */
 
